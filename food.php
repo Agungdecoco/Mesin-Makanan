@@ -1,7 +1,7 @@
 <?php
 
-trait food {
-  $foods = [
+class food {
+  protected $foods = [
     [
       "name" => "Soto",
       "price" => 20000
